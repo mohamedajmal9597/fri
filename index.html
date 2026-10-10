@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card" id="loginPage">
+    <div class="heart">💗</div>
+    <h1>Friendship Login</h1>
+    <p>Hey! Welcome to our little friendship world ✨</p>
+    <form id="loginForm">
+        <input type="text" id="nameInput" placeholder="Enter your name..." maxlength="100" required>
+        <button class="login-btn" type="submit">Let's Go 💌</button>
+    </form>
+</div>
+
+<div class="card hidden" id="questionPage">
+    <div class="heart">💗</div>
+    <h1 id="greetingText">Hey! 💕</h1>
+    <p>Our friendship is special! 🫶<br>I have one little question for you...</p>
+    <h2>Do You Like Me? 🥹💖</h2>
+    
+    <div class="buttons" id="buttonArea">
+        <button id="yesBtn" type="button">YES 💚</button>
+        <button id="noBtn" type="button">NO 🙈</button>
+    </div>
+    
+    <div id="result"></div>
+    <p class="small">Just a fun friendship question! 😊</p>
+    <p><button class="link-btn" id="resetBtn">Start Again ↩️</button></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffc1d9, #c9b6ff);
+    overflow: hidden;
+}
+
+.card {
+    width: min(90%, 430px);
+    padding: 35px 22px;
+    text-align: center;
+    background: rgba(255,255,255,0.92);
+    border-radius: 25px;
+    box-shadow: 0 15px 45px #9c558844;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.heart {
+    font-size: 55px;
+}
+
+h1 {
+    color: #e83e80;
+    font-size: 28px;
+}
+
+p {
+    color: #6e5265;
+    line-height: 1.6;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #f3a4c6;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.login-btn, #yesBtn {
+    color: white;
+    background: #ed4f91;
+}
+
+#yesBtn:hover, .login-btn:hover {
+    background: #cf2870;
+    transform: scale(1.05);
+}
+
+#noBtn {
+    background: #eeeeee;
+    color: #555;
+    position: relative;
+    z-index: 10;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    min-height: 100px;
+    position: relative;
+}
+
+#result {
+    color: #df3480;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.small {
+    font-size: 12px;
+    color: #98788c;
+}
+
+.link-btn {
+    background: none;
+    color: #df3480;
+    font-size: 14px;
+    padding: 0;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.link-btn:hover {
+    background: none;
+    color: #cf2870;
+    transform: none;
+}
